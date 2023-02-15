@@ -25,3 +25,11 @@ We then broke down the summary statistics by Manufacture's lot, and the results 
 The design specification for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the overall summary statistics, the variance is clearly well within the 100 pounds per square inch variance allowed by the design specifications, and thereforem meet the design specification. 
 
 When examining each lot individually, Lot 1 and Lot 2 are within the 100 pounds per square inch variance allowed. Lot 3 is very clearly outsdie of the allocated 100 pounds per square inch of variance. Lots 1 and 2 meet the design specification, but Lot 3 do not meet the design specification.
+
+## T-Tests on Suspension Coils
+
+![Total_One_tail](https://user-images.githubusercontent.com/114427019/219183885-dc45f0aa-2d47-41b6-bb38-b5f53c44f186.png)
+
+## Study Design: MechaCar vs Competition
+
+An additional statistical study that we should perform that consumers would be interested in is city fuel efficiency. The null hypothesis could be "MechaCar vehicles are more fuel efficient than other competitors", and the alternative hypothesis could be "MechaCar vehicles are not as city fuel efficient as other competitors". We would want to use a two-sample t-test to compare MechaCar's miles per gallon against their competitors. This would be the approriate test because we are unable to compare the populations of all cars produced by MechaCar and their competitors, and two-sample t-tests compare the the distribution of means from two samples. In order to perform this statistical study, we would need to obtain a dataset with our competitors city mpg as well as collect data on MechaCar's city mpg. In the competitors' dataset, we should ensure that the data includes our competitors name, car models, and year. We should also ensure that the MechaCar data set includes year and model to help us better compare like mpg to like mpg.
